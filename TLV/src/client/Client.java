@@ -21,7 +21,7 @@ public class Client implements Runnable {
 
 			Runtime.getRuntime().addShutdownHook(t);
 
-			Socket s = new Socket("192.168.101.156", 3333);
+			Socket s = new Socket("192.168.101.156", 3334);
 
 			c.tlv = new Tlv(s);
 			new Thread(c).start();

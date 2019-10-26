@@ -5,6 +5,7 @@ import java.io.DataOutputStream;
 import java.net.Socket;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
+import java.nio.charset.StandardCharsets;
 
 public class Tlv {
 
@@ -26,7 +27,7 @@ public class Tlv {
 
 	public void writeMsg(String msg, int type) {
 
-		byte[] MsgB = msg.getBytes();
+		byte[] MsgB = msg.getBytes(StandardCharsets.UTF_8);
 		int len = MsgB.length;
 
 		//
