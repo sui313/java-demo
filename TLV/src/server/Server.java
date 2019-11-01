@@ -14,24 +14,12 @@ public class Server {
 
 	public static void main(String[] args) {
 		System.out.println("server started");
-//		try {
-//			TestCl c = new TestCl();
-//			c.fun1(1, 0);
-//			System.out.println("222222222222");
-//			int dd = 123 + 654;
-//			System.out.println(dd);
-//		} catch (Exception e) {
-//			// TODO: handle exception
-//			System.out.println("3333333333");
-//			e.printStackTrace();
-//		}
-//		System.out.println("44444444444");
 		new Server().start();
 	}
 
 	void start() {
 		try {
-			ss = new ServerSocket(3334);
+			ss = new ServerSocket(3333);
 		} catch (Exception e) {
 			// TODO: handle exception
 			e.printStackTrace();
@@ -99,7 +87,7 @@ public class Server {
 		}
 	}
 
-	class shutdownhook implements Runnable {
+	class ShutdownHook implements Runnable {
 		@Override
 		public void run() {
 			// TODO 自动生成的方法存根

@@ -33,13 +33,13 @@ public class Tlv {
 		//
 		byte[] by = new byte[4];
 		ByteBuffer bb = ByteBuffer.wrap(by);
-		bb.order(ByteOrder.LITTLE_ENDIAN);
-		bb.asIntBuffer().put(type);
+		bb.order(ByteOrder.LITTLE_ENDIAN);// 这里使用小端序
 
 		byte[] SendMsg = new byte[4 + 4 + len]; // int(type) + int(len) + msg.len
 		int i = 0;
 
 		// 写入类型
+		bb.asIntBuffer().put(type);
 		for (i = 0; i < by.length; i++) {
 			SendMsg[i] = by[i];
 		}
