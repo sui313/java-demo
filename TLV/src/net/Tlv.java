@@ -30,34 +30,33 @@ public class Tlv {
 		byte[] MsgB = msg.getBytes(StandardCharsets.UTF_8);
 		int len = MsgB.length;
 
-		//
-		byte[] by = new byte[4];
-		ByteBuffer bb = ByteBuffer.wrap(by);
-		bb.order(ByteOrder.LITTLE_ENDIAN);// 这里使用小端序
-
 		byte[] SendMsg = new byte[4 + 4 + len]; // int(type) + int(len) + msg.len
-		int i = 0;
+		ByteBuffer bb = ByteBuffer.wrap(SendMsg);
+		bb.order(ByteOrder.LITTLE_ENDIAN);// 这里使用小端序
+		bb.putInt(type);
+		bb.putInt(len);
+		bb.put(MsgB);
 
-		// 写入类型
-		bb.asIntBuffer().put(type);
-		for (i = 0; i < by.length; i++) {
-			SendMsg[i] = by[i];
-		}
-
-		bb.asIntBuffer().put(0);// 清空
-
-		// 写入长度
-		bb.asIntBuffer().put(len);//
-		int j = i;
-		for (int k = 0; k < by.length; j++, k++) {
-			SendMsg[j] = by[k];
-		}
-
-		// 写入消息
-		int n = j;
-		for (int k = 0; k < MsgB.length; k++, n++) {
-			SendMsg[n] = MsgB[k];
-		}
+//		// 写入类型
+//		bb.asIntBuffer().put(type);
+//		for (i = 0; i < by.length; i++) {
+//			SendMsg[i] = by[i];
+//		}
+//
+//		bb.asIntBuffer().put(0);// 清空
+//
+//		// 写入长度
+//		bb.asIntBuffer().put(len);//
+//		int j = i;
+//		for (int k = 0; k < by.length; j++, k++) {
+//			SendMsg[j] = by[k];
+//		}
+//
+//		// 写入消息
+//		int n = j;
+//		for (int k = 0; k < MsgB.length; k++, n++) {
+//			SendMsg[n] = MsgB[k];
+//		}
 		try {
 			dos.write(SendMsg);
 			dos.flush();

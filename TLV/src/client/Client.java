@@ -25,7 +25,7 @@ public class Client implements Runnable {
 
 			c.tlv = new Tlv(s);
 			new Thread(c).start();
-			for (int i = 0; i < 20; i++) {
+			for (int i = 0; i < 1; i++) {
 				String str = i + "_" + "Hello java world!!!";
 				c.tlv.writeMsg(str, 1);
 				Thread.sleep(1 * 1000);
@@ -53,7 +53,7 @@ public class Client implements Runnable {
 			System.out.println("ShutdownHook execute start...");
 			try {
 				tlv.close();
-				TimeUnit.SECONDS.sleep(10);// 模拟应用进程退出前的处理操作
+				TimeUnit.SECONDS.sleep(1);// 模拟应用进程退出前的处理操作
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
