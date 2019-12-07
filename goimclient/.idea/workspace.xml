@@ -2,61 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26cb879f-5b77-48e7-a5ec-288d6574571e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.classpath" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.project" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/CacheDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lock/bin/CacheDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/CachedData.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lock/bin/CachedData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/CallableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/CallableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/HelloWorldApplet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/PrintDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/Queue3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lock/bin/Queue3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/ReadWriteLockTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lock/bin/ReadWriteLockTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/ReadWriteLockTest$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lock/bin/ReadWriteLockTest$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/ReadWriteLockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Lock/bin/ReadWriteLockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/RunnableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/SocketClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/StringDemo/StringCompareEmp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/TestException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/TestFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/TestMethod.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/TestRegex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/TestString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/TestThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/applet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/arrSortFind/arrSortFind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/bioClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/bioServer$Handler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/bioServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/client/Client$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/client/Client$recvThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/client/Client$tfListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/client/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/controller/GoddessAction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/dao/GoddessDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/dataStrc/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/dataStrc/Enumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/dataStrc/HashDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/dataStrc/StackDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/dataStrc/TestStrc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/dataStrc/VectorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/db/DBUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/helloworld/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/jdbc/DBUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/lib/mysql-connector-java-5.1.39-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/lib/mysql-connector-java-8.0.18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/model/Goddess.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/net/Msg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/net/Tlv.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/object/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/object/Salary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/object/SubSalary.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/object/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/server/Server$ChatClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/server/Server.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Lock/bin/server/TestCl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,11 +10,14 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
   <component name="GOROOT" path="C:\Go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1038" />
@@ -85,6 +34,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
@@ -106,10 +56,10 @@
     </option>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1038" height="1047" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24948876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13006397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -131,5 +81,19 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/AppData/Local/YNote/Data/weixinobU7Vjg5qufP60Myk6EcdLuyG2XE/7E14EC88C98448B9A43CA59D418510AE/base_type.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1528" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/YNote/Data/weixinobU7Vjg5qufP60Myk6EcdLuyG2XE/A84FE39E1BEE43988065EEAE8ED99DFF/wxpay_func.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2772">
+          <caret line="217" column="20" selection-start-line="217" selection-start-column="20" selection-end-line="217" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

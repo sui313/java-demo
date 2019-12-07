@@ -32,6 +32,7 @@ public class Client implements Runnable {
 			}
 		} catch (Exception e) {
 			// TODO: handle exception
+			System.out.println("111");
 			e.printStackTrace();
 		}
 

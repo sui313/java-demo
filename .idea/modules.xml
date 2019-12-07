@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lock/Lock.iml" filepath="$PROJECT_DIR$/Lock/Lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyDemo/MyDemo.iml" filepath="$PROJECT_DIR$/MyDemo/MyDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" filepath="$PROJECT_DIR$/RemoteSystemsTempFiles/RemoteSystemsTempFiles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TLV/TLV.iml" filepath="$PROJECT_DIR$/TLV/TLV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chat/chat.iml" filepath="$PROJECT_DIR$/chat/chat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/goimclient/goimclient.iml" filepath="$PROJECT_DIR$/goimclient/goimclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloworldNats/helloworld.iml" filepath="$PROJECT_DIR$/helloworldNats/helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-demo.iml" filepath="$PROJECT_DIR$/.idea/java-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvndemo/mvndemo.iml" filepath="$PROJECT_DIR$/mvndemo/mvndemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myjava/myjava.iml" filepath="$PROJECT_DIR$/myjava/myjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reflectDemo/reflectDemo.iml" filepath="$PROJECT_DIR$/reflectDemo/reflectDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student/student.iml" filepath="$PROJECT_DIR$/student/student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threadcommunication/threadcommunication.iml" filepath="$PROJECT_DIR$/threadcommunication/threadcommunication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tongbu/tongbu.iml" filepath="$PROJECT_DIR$/tongbu/tongbu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ucstarDemo/ucstarDemo.iml" filepath="$PROJECT_DIR$/ucstarDemo/ucstarDemo.iml" />
+    </modules>
+  </component>
+</project>
